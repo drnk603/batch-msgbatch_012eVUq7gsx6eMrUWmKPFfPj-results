@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="de">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt - AlpenTraum Reisen | Ihre Traumreise beginnt hier</title>
+  <meta name="description" content="Kontaktieren Sie AlpenTraum Reisen für Ihre perfekte Reise nach Deutschland. Persönliche Beratung, maßgeschneiderte Angebote und erstklassiger Service.">
+  <meta property="og:title" content="Kontakt - AlpenTraum Reisen">
+  <meta property="og:description" content="Kontaktieren Sie AlpenTraum Reisen für Ihre perfekte Reise nach Deutschland.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&amp;h=630&amp;fit=crop">
+  <meta property="og:url" content="https://domain.com/contact.html">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://domain.com/contact.html">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+ </head>
+ <body>
+  <header class="l-header">
+   <nav class="navbar navbar-expand-md sticky-top bg-white border-bottom" style="height: var(--header-h)">
+    <div class="container">
+     <a class="navbar-brand c-logo" href="/" aria-label="Zur Startseite"> <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=150&amp;h=40&amp;fit=crop&amp;crop=center" alt="Entdecke Deutschland Logo" width="150" height="40" class="img-fluid"> </a>
+     <button class="navbar-toggler c-nav__toggle" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Navigation umschalten"><span class="navbar-toggler-icon"></span></button>
+     <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+       <li class="nav-item"><a class="nav-link" href="/" aria-current="page">Startseite</a></li>
+       <li class="nav-item"><a class="nav-link" href="about.html">Über uns</a></li>
+       <li class="nav-item"><a class="nav-link" href="services.html">Leistungen</a></li>
+       <li class="nav-item"><a class="nav-link" href="contact.html">Kontakt</a></li>
+      </ul>
+      <a href="contact.html" class="btn btn-primary ms-3">Jetzt buchen</a>
+     </div>
+    </div>
+   </nav>
+  </header>
+  <main>
+   <nav class="container mt-4" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+     <li class="breadcrumb-item"><a href="index.html">Startseite</a></li>
+     <li class="breadcrumb-item active" aria-current="page">Kontakt</li>
+    </ol>
+   </nav>
+   <section class="l-section py-4 py-md-5">
+    <div class="container">
+     <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+       <h1 class="display-4 fw-bold mb-4" data-aos="fade-up">Kontaktieren Sie uns</h1>
+       <p class="lead mb-5" data-aos="fade-up" data-aos-delay="100">Wir freuen uns auf Ihre Anfrage und beraten Sie gerne persönlich zu Ihrer Traumreise durch Deutschland.</p>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="l-section py-4 py-md-5 bg-light">
+    <div class="container">
+     <div class="row g-4">
+      <div class="col-lg-8" data-aos="fade-up">
+       <div class="c-card p-4">
+        <h2 class="h3 mb-4">Kontaktformular</h2>
+        <form class="c-form" action="thank_you.html" method="post" novalidate>
+         <div class="row g-3">
+          <div class="col-md-6">
+           <label for="firstName" class="form-label">Vorname *</label> <input type="text" class="form-control" id="firstName" name="firstName" required>
+           <div class="invalid-feedback">Bitte geben Sie Ihren Vornamen ein.</div>
+          </div>
+          <div class="col-md-6">
+           <label for="lastName" class="form-label">Nachname *</label> <input type="text" class="form-control" id="lastName" name="lastName" required>
+           <div class="invalid-feedback">Bitte geben Sie Ihren Nachnamen ein.</div>
+          </div>
+          <div class="col-12">
+           <label for="email" class="form-label">E-Mail-Adresse *</label> <input type="email" class="form-control" id="email" name="email" required>
+           <div class="invalid-feedback">Bitte geben Sie eine gültige E-Mail-Adresse ein.</div>
+          </div>
+          <div class="col-12">
+           <label for="phone" class="form-label">Telefonnummer</label> <input type="tel" class="form-control" id="phone" name="phone">
+          </div>
+          <div class="col-12">
+           <label for="travelType" class="form-label">Art der Reise</label> <select class="form-select" id="travelType" name="travelType"> <option value="">Bitte wählen</option> <option value="staedtereise">Städtereise</option> <option value="naturreise">Naturreise</option> <option value="kulturreise">Kulturreise</option> <option value="geschaeftsreise">Geschäftsreise</option> <option value="gruppenreise">Gruppenreise</option> <option value="individualreise">Individualreise</option> </select>
+          </div>
+          <div class="col-12">
+           <label for="message" class="form-label">Ihre Nachricht *</label> <textarea class="form-control" id="message" name="message" rows="5" required placeholder="Beschreiben Sie Ihre Reisewünsche und -vorstellungen..."></textarea>
+           <div class="invalid-feedback">Bitte teilen Sie uns Ihre Nachricht mit.</div>
+          </div>
+          <div class="col-12">
+           <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="privacy" name="privacy" required> <label class="form-check-label" for="privacy"> Ich stimme der Verarbeitung meiner Daten gemäß der <a href="privacy.html" class="text-decoration-underline">Datenschutzerklärung</a> zu. * </label>
+            <div class="invalid-feedback">Sie müssen der Datenschutzerklärung zustimmen.</div>
+           </div>
+          </div>
+          <div class="col-12">
+           <button type="submit" class="c-button c-button--primary w-100">Nachricht senden</button>
+          </div>
+         </div>
+        </form>
+       </div>
+      </div>
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+       <div class="c-card p-4 h-100">
+        <h3 class="h4 mb-4">Kontaktinformationen</h3>
+        <div class="mb-4">
+         <h4 class="h6 fw-bold mb-2">Büro München</h4>
+         <address class="mb-0">Maximilianstraße 42
+          <br>
+          80538 München
+          <br>
+          Deutschland</address>
+        </div>
+        <div class="mb-4">
+         <h4 class="h6 fw-bold mb-2">Telefon</h4>
+         <a href="tel:+4989123456" class="text-decoration-none">+49 89 123456</a>
+        </div>
+        <div class="mb-4">
+         <h4 class="h6 fw-bold mb-2">E-Mail</h4>
+         <a href="mailto:info@domain.com" class="text-decoration-none">info@domain.com</a>
+        </div>
+        <div class="mb-4">
+         <h4 class="h6 fw-bold mb-2">Öffnungszeiten</h4>
+         <p class="mb-0 small">Montag - Freitag: 9:00 - 18:00
+          <br>
+          Samstag: 10:00 - 14:00
+          <br>
+          Sonntag: Geschlossen</p>
+        </div>
+        <div>
+         <h4 class="h6 fw-bold mb-3">Folgen Sie uns</h4>
+         <div class="d-flex gap-3">
+          <a href="#" class="text-decoration-none" aria-label="Facebook"> 
+           <div class="ratio ratio-1x1" style="width: 32px;">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+             <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+            </svg>
+           </div> 
+          </a> <a href="#" class="text-decoration-none" aria-label="Instagram"> 
+           <div class="ratio ratio-1x1" style="width: 32px;">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+             <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+            </svg>
+           </div> 
+          </a> <a href="#" class="text-decoration-none" aria-label="Twitter"> 
+           <div class="ratio ratio-1x1" style="width: 32px;">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+             <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+            </svg>
+           </div> 
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="l-section py-4 py-md-5">
+    <div class="container">
+     <div class="row">
+      <div class="col-12" data-aos="fade-up">
+       <div class="c-card p-4">
+        <h2 class="h3 mb-4 text-center">Unser Standort</h2>
+        <div class="ratio ratio-16x9">
+         <div class="bg-light d-flex align-items-center justify-content-center">
+          <div class="text-center p-4">
+           <div class="ratio ratio-1x1 mx-auto mb-3" style="width: 64px;">
+            <svg viewBox="0 0 24 24" fill="currentColor" class="text-primary">
+             <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+            </svg>
+           </div>
+           <h3 class="h5">AlpenTraum Reisen</h3>
+           <p class="mb-0">Maximilianstraße 42, 80538 München</p>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="l-section py-4 py-md-5 bg-light">
+    <div class="container">
+     <div class="row">
+      <div class="col-lg-8 mx-auto text-center mb-5">
+       <h2 class="display-5 fw-bold mb-4" data-aos="fade-up">Was unsere Kunden sagen</h2>
+       <p class="lead" data-aos="fade-up" data-aos-delay="100">Erfahren Sie aus erster Hand, warum Reisende AlpenTraum Reisen für ihre Deutschland-Abenteuer wählen.</p>
+      </div>
+     </div>
+     <div class="row g-4">
+      <div class="col-md-6 col-lg-4" data-aos="fade-up">
+       <div class="c-card p-4 h-100 d-flex flex-column">
+        <div class="mb-3">
+         <div class="d-flex text-warning">
+          <span>★★★★★</span>
+         </div>
+        </div>
+        <blockquote class="mb-4 flex-grow-1">
+         <p class="mb-0">"Eine fantastische Reise durch Bayern! Die Organisation war perfekt und unser Reiseleiter sehr kompetent. Wir haben so viel über die deutsche Kultur gelernt."</p>
+        </blockquote>
+        <div class="d-flex align-items-center">
+         <div class="ratio ratio-1x1 me-3" style="width: 48px;">
+          <img src="https://images.unsplash.com/photo-1494790108755-2616b612b1d0?w=96&amp;h=96&amp;fit=crop&amp;crop=faces" alt="Maria Schmidt" class="rounded-circle" style="object-fit: cover;" loading="lazy">
+         </div>
+         <div>
+          <cite class="fw-medium">Maria Schmidt</cite>
+          <div class="small text-muted">Österreich</div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+       <div class="c-card p-4 h-100 d-flex flex-column">
+        <div class="mb-3">
+         <div class="d-flex text-warning">
+          <span>★★★★★</span>
+         </div>
+        </div>
+        <blockquote class="mb-4 flex-grow-1">
+         <p class="mb-0">"Der Service von AlpenTraum war außergewöhnlich. Von der Buchung bis zur Rückkehr fühlten wir uns bestens betreut. Die Schwarzwald-Tour war unvergesslich!"</p>
+        </blockquote>
+        <div class="d-flex align-items-center">
+         <div class="ratio ratio-1x1 me-3" style="width: 48px;">
+          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=96&amp;h=96&amp;fit=crop&amp;crop=faces" alt="Thomas Weber" class="rounded-circle" style="object-fit: cover;" loading="lazy">
+         </div>
+         <div>
+          <cite class="fw-medium">Thomas Weber</cite>
+          <div class="small text-muted">Schweiz</div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+       <div class="c-card p-4 h-100 d-flex flex-column">
+        <div class="mb-3">
+         <div class="d-flex text-warning">
+          <span>★★★★★</span>
+         </div>
+        </div>
+        <blockquote class="mb-4 flex-grow-1">
+         <p class="mb-0">"Individuell, professionell und mit viel Herz - so würde ich AlpenTraum Reisen beschreiben. Unsere Familienreise war perfekt organisiert."</p>
+        </blockquote>
+        <div class="d-flex align-items-center">
+         <div class="ratio ratio-1x1 me-3" style="width: 48px;">
+          <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=96&amp;h=96&amp;fit=crop&amp;crop=faces" alt="Anna Müller" class="rounded-circle" style="object-fit: cover;" loading="lazy">
+         </div>
+         <div>
+          <cite class="fw-medium">Anna Müller</cite>
+          <div class="small text-muted">Deutschland</div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="l-section py-4 py-md-5">
+    <div class="container">
+     <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+       <h2 class="display-5 fw-bold mb-4" data-aos="fade-up">Bereit für Ihr Deutschland-Abenteuer?</h2>
+       <p class="lead mb-4" data-aos="fade-up" data-aos-delay="100">Lassen Sie uns gemeinsam Ihre perfekte Reise planen. Kontaktieren Sie uns noch heute!</p>
+       <div class="d-flex flex-column flex-sm-row gap-3 justify-content-center" data-aos="fade-up" data-aos-delay="200">
+        <a href="tel:+4989123456" class="c-button c-button--primary">Jetzt anrufen</a> <a href="mailto:info@domain.com" class="c-button c-button--outline">E-Mail schreiben</a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="l-footer bg-dark text-light py-4 py-md-5">
+   <div class="container">
+    <div class="row g-4">
+     <div class="col-12 col-md-6 col-lg-4">
+      <h3 class="h5 fw-bold mb-3">Entdecke Deutschland</h3>
+      <p class="mb-3">Ihr Partner für authentische Reiseerlebnisse in Deutschland. Seit über 15 Jahren bieten wir maßgeschneiderte Touren und unvergessliche Abenteuer.</p>
+      <div class="d-flex gap-3">
+       <a href="#" class="text-light" aria-label="Facebook">📘</a> <a href="#" class="text-light" aria-label="Instagram">📷</a> <a href="#" class="text-light" aria-label="Twitter">🐦</a>
+      </div>
+     </div>
+     <div class="col-12 col-md-6 col-lg-2">
+      <h4 class="h6 fw-bold mb-3">Navigation</h4>
+      <ul class="list-unstyled">
+       <li class="mb-2"><a href="/" class="text-light text-decoration-none">Startseite</a></li>
+       <li class="mb-2"><a href="about.html" class="text-light text-decoration-none">Über uns</a></li>
+       <li class="mb-2"><a href="services.html" class="text-light text-decoration-none">Leistungen</a></li>
+       <li class="mb-2"><a href="contact.html" class="text-light text-decoration-none">Kontakt</a></li>
+      </ul>
+     </div>
+     <div class="col-12 col-md-6 col-lg-3">
+      <h4 class="h6 fw-bold mb-3">Kontakt</h4>
+      <address class="mb-0">
+       <p class="mb-2">📍 Hauptstraße 123
+        <br>
+        80331 München, Deutschland</p>
+       <p class="mb-2">📞 <a href="tel:+4989123456789" class="text-light text-decoration-none">+49 89 123 456 789</a></p>
+       <p class="mb-0">✉️ <a href="mailto:info@domain.com" class="text-light text-decoration-none">info@domain.com</a></p>
+      </address>
+     </div>
+     <div class="col-12 col-md-6 col-lg-3">
+      <h4 class="h6 fw-bold mb-3">Rechtliches</h4>
+      <ul class="list-unstyled">
+       <li class="mb-2"><a href="privacy.html" class="text-light text-decoration-none">Datenschutz</a></li>
+       <li class="mb-2"><a href="#" class="text-light text-decoration-none">Impressum</a></li>
+       <li class="mb-2"><a href="#" class="text-light text-decoration-none">AGB</a></li>
+      </ul>
+     </div>
+    </div>
+    <hr class="my-4">
+    <div class="row align-items-center">
+     <div class="col-12 col-md-6">
+      <p class="mb-0">© 2025 Entdecke Deutschland. Alle Rechte vorbehalten.</p>
+     </div>
+     <div class="col-12 col-md-6 text-md-end">
+      <small class="text-muted">Lizenzierte Reiseagentur • Mitglied im DRV</small>
+     </div>
+    </div>
+   </div>
+  </footer>
+  <script src="script.js" defer></script>
+ </body>
+</html>
